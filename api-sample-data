@@ -1,0 +1,104 @@
+endpoint : https://api.covid19api.com/summary
+
+response:
+{
+  "Global": {
+    "NewConfirmed": 100282,
+    "TotalConfirmed": 1162857,
+    "NewDeaths": 5658,
+    "TotalDeaths": 63263,
+    "NewRecovered": 15405,
+    "TotalRecovered": 230845
+  },
+  "Countries": [
+    {
+      "Country": "ALA Aland Islands",
+      "CountryCode": "AX",
+      "Slug": "ala-aland-islands",
+      "NewConfirmed": 0,
+      "TotalConfirmed": 0,
+      "NewDeaths": 0,
+      "TotalDeaths": 0,
+      "NewRecovered": 0,
+      "TotalRecovered": 0,
+      "Date": "2020-04-05T06:37:00Z"
+    },
+    {
+      "Country": "Afghanistan",
+      "CountryCode": "AF",
+      "Slug": "afghanistan",
+      "NewConfirmed": 18,
+      "TotalConfirmed": 299,
+      "NewDeaths": 1,
+      "TotalDeaths": 7,
+      "NewRecovered": 0,
+      "TotalRecovered": 10,
+      "Date": "2020-04-05T06:37:00Z"
+    },
+    {
+      "Country": "Albania",
+      "CountryCode": "AL",
+      "Slug": "albania",
+      "NewConfirmed": 29,
+      "TotalConfirmed": 333,
+      "NewDeaths": 3,
+      "TotalDeaths": 20,
+      "NewRecovered": 10,
+      "TotalRecovered": 99,
+      "Date": "2020-04-05T06:37:00Z"
+    }
+}
+
+endpoint : https://corona-virus-stats.herokuapp.com/api/v1/cases/general-stats
+
+response :
+{"data": {
+  "total_cases": "7,021,206", 
+  "recovery_cases": "3,432,977", 
+  "death_cases": "402,837", 
+  "last_update": "Jun, 07 2020, 14:29, UTC",
+  "currently_infected": "3,185,392",
+  "cases_with_outcome": "3,835,814", 
+  "mild_condition_active_cases": "3,131,634", 
+  "critical_condition_active_cases": "53,758", 
+  "recovered_closed_cases": "3,432,977", 
+  "death_closed_cases": "402,837", 
+  "closed_cases_recovered_percentage": "89.0", 
+  "closed_cases_death_percentage": "11.0",
+  "active_cases_mild_percentage": "98.0", 
+  "active_cases_critical_percentage": "2.0",
+  "general_death_rate": "6.0"}, 
+  "status": "success"
+  }
+  
+endpoint : "https://who-covid-19-data.p.rapidapi.com/api/data"
+
+response: 
+[2 items
+0:{11 items
+"name":"Italy"
+"cases":69176
+"newCases":5249
+"deaths":6820
+"newDeaths":743
+"transmissionType":1
+"daysSinceLastCase":0
+"region":"European Region"
+"territory":false
+"reportDate":"2020-03-25T00:00:00.000Z"
+"reportNumber":65
+}
+1:{11 items
+"name":"Spain"
+"cases":39673
+"newCases":6584
+"deaths":2696
+"newDeaths":514
+"transmissionType":1
+"daysSinceLastCase":0
+"region":"European Region"
+"territory":false
+"reportDate":"2020-03-25T00:00:00.000Z"
+"reportNumber":65
+}
+]
